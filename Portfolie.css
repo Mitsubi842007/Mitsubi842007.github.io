@@ -46,6 +46,7 @@ main {
 
 #side-bar-profile-card:hover .overlay {
     height: 100%;
+
 }
 
 #side-bar-profile-card {
@@ -54,13 +55,15 @@ main {
     left: 0;
     width: 100%;
     height: 300px;
-    background: hsl(0, 0%, 100%);
+    background: #340537;
     border: black 1px solid;
     bottom: 0;
     left: 0;
     right: 0;
     overflow: hidden;
     transition: 10s ease-in;
+    margin-right: 20px;
+
 
 }
 
@@ -82,4 +85,26 @@ main {
     height: 3000px;
     width: 1000px;
 
+}
+
+
+
+/*begin footer*/
+.footer {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: center;
+    left: 0;
+    bottom: 0;
+    width: 1000px;
+    height: 55px;
+    background-color: #340537;
+    color: #FF00E1;
+    text-align: center;
+    margin-left: 400px;
+    
 }
