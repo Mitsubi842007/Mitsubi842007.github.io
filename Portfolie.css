@@ -3,7 +3,7 @@ body {
     margin: 0;
     color: white;
     font-family: "Cherry Bomb One", system-ui;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     font-weight: normal;
     background-color: hsl(0, 0%, 0%);
 }
@@ -174,7 +174,7 @@ main {
 
     left: 50%;
 
-    transform: translateX(-50%);
+    transform: translateX(-55%);
 
     background: #ffffff;
 
@@ -209,7 +209,7 @@ main {
 /*----------BEHIND THE WHOLE BODY SETTINGS----------*/
 #main-info {
     background-color: black;
-    height: 2500px;
+    height: 200px;
 }
 
 /*--------------THE WHOLE BODY SETTINGS------------*/
@@ -218,7 +218,7 @@ main {
     flex-wrap: nowrap;
     margin-left: 250px;
     background: #780A7D;
-    height: 3000px;
+    height: 550px;
     width: 1000px;
 
 }
@@ -228,7 +228,45 @@ main {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 240px;
+    margin-top: 60px;
+    border-radius: 10px;
+    background: #ffffff;
+    height: 60px;
+    width: 500px;
+    color: black;
+
+}
+
+.about1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center 2px;
+    align-content: center;
+    margin-left: 290px;
+    margin-top: 30px;
+    background: white;
+    height: 420px;
+    width: 450px;
+    border-radius: 10px;
+    color: black;
+}
+
+.about1 p {
+    margin-left: 50px;
+}
+
+/*TALENT SETTINGS*/
+.talent-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
     align-items: center;
     align-content: center;
     margin-left: 240px;
@@ -240,21 +278,23 @@ main {
     color: black;
 }
 
-.about1 {
+.talent1 {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: flex-start;
+    justify-content: start;
     align-items: center;
     align-content: center;
-    margin-left: 240px;
+    margin-left: 290px;
     margin-top: 30px;
     background: white;
-    height: 400px;
-    width: 500px;
+    height: 360px;
+    width: 400px;
     border-radius: 10px;
     color: black;
 }
+
+
 
 
 /*-----------FOOTER SETTINGS---------------*/
