@@ -218,7 +218,7 @@ main {
     flex-wrap: nowrap;
     margin-left: 250px;
     background: #780A7D;
-    height: 550px;
+    height: 650px;
     width: 1000px;
 
 }
@@ -248,7 +248,7 @@ main {
     justify-content: center;
     align-items: center 2px;
     align-content: center;
-    margin-left: 290px;
+    margin-left: 250px;
     margin-top: 30px;
     background: white;
     height: 420px;
@@ -264,7 +264,7 @@ main {
 /*TALENT SETTINGS*/
 .talent-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
@@ -280,17 +280,42 @@ main {
 
 .talent1 {
     display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	align-items: stretch;
-	align-content: center;
-    margin-left: 290px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: center;
+    align-content: center;
+    margin-left: 50px;
     margin-top: 30px;
     background: white;
-    height: 360px;
+    height: 460px;
     width: 400px;
     border-radius: 10px;
+    color: black;
+}
+
+
+.talent2 img {
+    height: 40px;
+    width: 40px;
+    
+}
+
+.talent2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: center;
+    align-content: center;
+    margin-left: 50px;
+    margin-top: 30px;
+    background: white;
+    height: 460px;
+    width: 400px;
+
+    border-radius: 10px;
+
     color: black;
 }
 
