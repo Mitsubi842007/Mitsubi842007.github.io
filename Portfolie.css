@@ -7,7 +7,24 @@ body {
     font-weight: normal;
     background-color: hsl(0, 0%, 0%);
 }
-
+/*-----------FOOTER SETTINGS---------------*/
+.footer {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: center;
+    left: 0;
+    bottom: 0;
+    width: 1000px;
+    height: 53px;
+    background-color: #340537;
+    color: #FF00E1;
+    text-align: center;
+    margin-left: 400px;
+}
 /*---------TOP BAR SETTINGS----------*/
 #top-bar {
     background-color: hsl(295, 100%, 13%);
@@ -210,6 +227,7 @@ main {
 #main-info {
     background-color: black;
     height: 200px;
+    
 }
 
 /*--------------THE WHOLE BODY SETTINGS------------*/
@@ -218,8 +236,9 @@ main {
     flex-wrap: nowrap;
     margin-left: 250px;
     background: #780A7D;
-    height: 650px;
+    height: 500px;
     width: 1000px;
+    
 
 }
 
@@ -249,12 +268,13 @@ main {
     align-items: center 2px;
     align-content: center;
     margin-left: 250px;
-    margin-top: 30px;
+    margin-top: 60px;
     background: white;
     height: 420px;
     width: 450px;
     border-radius: 10px;
     color: black;
+    font-size : 15px;
 }
 
 .about1 p {
@@ -313,12 +333,14 @@ main {
     text-decoration: underline 4px;
 
 }
-.talent1 h5{
-font-size: 15px;
+
+.talent1 h5 {
+    font-size: 15px;
     margin-left: 15px;
     text-decoration: underline 4px;
-    
+
 }
+
 /*-----TALENTS 2 SETTINGS*/
 
 .talent2 {
@@ -355,33 +377,101 @@ font-size: 15px;
     text-decoration: underline 4px;
 
 }
-.talent2 h5{
-font-size: 12px;
+
+.talent2 h5 {
+    font-size: 12px;
     margin-left: 15px;
     text-decoration: underline 4px;
-    
+
+}
+
+/*-----------work experiences SETTINGS---------------*/
+.work1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: start;
+    align-content: center;
+    margin-left: 290px;
+    margin-top: 110px;
+    background: white;
+    height: 460px;
+    width: 400px;
+    border-radius: 10px;
+    color: black;
+}
+
+.work1 p {
+    font-size: 11px;
+    margin-left: 15px;
+
+}
+
+.work1 h2 {
+    font-size: 30px;
+    margin-left: 70px;
+    text-decoration: underline 4px;
+}
+
+.work1 img {
+    height: 40px;
+    width: 40px;
+    margin-left: 15px;
 }
 
 
-
-
-
-
-/*-----------FOOTER SETTINGS---------------*/
-.footer {
+/*-----------CONTACT SETTINGS---------------*/
+.contact-container {
     display: flex;
-    position: fixed;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: stretch;
+    justify-content: center;
+    align-items: center;
     align-content: center;
-    left: 0;
-    bottom: 0;
-    width: 1000px;
-    height: 53px;
-    background-color: #340537;
-    color: #FF00E1;
-    text-align: center;
-    margin-left: 400px;
+    margin-left: 240px;
+    border-radius: 10px;
+    background: #ffffff;
+    height: 60px;
+    width: 500px;
+    color: black;
+    margin-top: 300px;
+}
+.contact1 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: center;
+    margin-left: 50px;
+    background: white;
+    height: 460px;
+    width: 400px;
+    border-radius: 10px;
+    color: black;
+}
+.contact1 p {
+    font-size: 11px;
+    margin-left: 15px;
+}
+
+.contact1 h3 {
+    font-size: 15px;
+    margin-left: 80px;
+    text-decoration: underline 4px;
+
+}
+
+.contact1 h5 {
+    font-size: 12px;
+    margin-left: 15px;
+    text-decoration: underline 4px;
+
+}
+.contact1 img {
+    height: 40px;
+    width: 40px;
+    margin-left: 15px;
+
 }
