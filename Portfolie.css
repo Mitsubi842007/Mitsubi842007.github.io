@@ -30,7 +30,7 @@ body {
 /*---------TOP BAR SETTINGS----------*/
 #top-bar {
     background-color: hsl(295, 100%, 13%);
-    height: 220px;
+    height: 120px;
     width: 100%;
 }
 
@@ -228,9 +228,7 @@ main {
 /*----------BEHIND THE WHOLE BODY SETTINGS----------*/
 #main-info {
     background-color: black;
-    height: 400px;
-
-
+    height: 600px;
 }
 
 /*--------------THE WHOLE BODY SETTINGS------------*/
@@ -239,248 +237,63 @@ main {
     flex-wrap: nowrap;
     margin-left: 250px;
     background: #780A7D;
-    height: 600px;
+    height: 350px;
     width: 1000px;
 
-
 }
 
-.main-container2 {
-    display: flex;
-    flex-wrap: nowrap;
-    margin-left: 250px;
-    background: #780A7D;
-    height: 800px;
-    width: 1000px;
 
-
-}
-
-/*---------ABOUT SETTINGS------*/
-.about-container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    margin-left: 240px;
-    margin-top: 60px;
-    border-radius: 10px;
-    background: #ffffff;
-    height: 60px;
-    width: 460px;
-    color: black;
-
-}
-
-.about1 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center 2px;
-    align-content: center;
-    margin-left: 250px;
-    margin-top: 60px;
+.white-box1 {
     background: white;
-    height: 420px;
-    width: 450px;
-    border-radius: 10px;
     color: black;
-    font-size: 15px;
-}
-
-.about1 p {
-    margin-left: 50px;
-}
-
-/*TALENT SETTINGS*/
-.talent-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    margin-left: 240px;
-    margin-top: 240px;
+    margin-left: 300px;
+    padding: 20px;
     border-radius: 10px;
-    background: #ffffff;
-    height: 60px;
-    width: 500px;
-    color: black;
-}
-
-/*-----TALENTS 1 SETTINGS*/
-.talent1 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: start;
-    align-items: start;
-    align-content: center;
-    margin-left: 50px;
-    background: white;
-    height: 460px;
-    width: 400px;
-    border-radius: 10px;
-    color: black;
-}
-
-.talent1 img {
-    height: 40px;
-    width: 40px;
-    margin-left: 15px;
-}
-
-.talent1 p {
-    font-size: 11px;
-    margin-left: 15px;
-
-}
-
-.talent1 h3 {
-    font-size: 15px;
-    margin-left: 140px;
-    text-decoration: underline 4px;
-
-}
-
-.talent1 h5 {
-    font-size: 15px;
-    margin-left: 15px;
-    text-decoration: underline 4px;
-
-}
-
-/*-----TALENTS 2 SETTINGS*/
-
-.talent2 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: start;
-    align-items: start;
-    align-content: center;
-    margin-left: 50px;
-
-    background: white;
-    height: 460px;
-    width: 400px;
-    border-radius: 10px;
-    color: black;
-}
-
-.talent2 img {
-    height: 40px;
-    width: 40px;
-    margin-left: 15px;
-
-}
-
-.talent2 p {
-    font-size: 11px;
-    margin-left: 15px;
-}
-
-.talent2 h3 {
-    font-size: 15px;
-    margin-left: 80px;
-    text-decoration: underline 4px;
-
-}
-
-.talent2 h5 {
-    font-size: 12px;
-    margin-left: 15px;
-    text-decoration: underline 4px;
-
-}
-
-/*-----------work experiences SETTINGS---------------*/
-.work1 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: start;
-    align-items: start;
-    align-content: center;
-    margin-left: 290px;
-    margin-top: 10px;
-    background: white;
-    height: 460px;
-    width: 400px;
-    border-radius: 10px;
-    color: black;
-}
-
-.work1 p {
-    font-size: 11px;
-    margin-left: 15px;
-
-}
-
-.work1 h2 {
-    font-size: 30px;
-    margin-left: 70px;
-    text-decoration: underline 4px;
-}
-
-.work1 img {
-    height: 40px;
-    width: 40px;
-    margin-left: 15px;
-}
-
-
-/*-----------CONTACT SETTINGS---------------*/
-.contact {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: start;
-    align-items: start;
-    align-content: center;
-    margin-left: 290px;
-    margin-top: 210px;
-    background: white;
-    height: 60px;
-    width: 400px;
-    border-radius: 10px;
-    color: black;
-}
-
-
-
-
-/*github logo img*/
-.contact img {
+    width: 300px;
     height: 50px;
-    width: 50px;
-    margin-left: 15px;
-    margin-top: 80px;
+    margin-top: 50px;
+    border-color: black 4px solid;
+
 
 }
 
-/*----CONTACT----*/
-.contact h2 {
+.white-box1 h2 {
     font-size: 30px;
-    margin-left: 70px;
-margin-top: 5px;
+    text-align: center;
+    margin-top: 0px;
 }
-.contact2 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: start;
-    align-items: start;
-    align-content: center;
-    margin-left: 290px;
-    margin-top: 210px;
+
+.white-box2 {
     background: white;
-    height: 200px;
-    width: 400px;
-    border-radius: 10px;
     color: black;
+    margin-left: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 600px;
+    height: 200px;
+
+    border-color: black 4px solid;
+
+}
+.white-box3 {
+    background: white;
+    color: black;
+    margin-left: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 600px;
+    height: 250px;
+    column-count: 2;
+    border-color: black 4px solid;
+  
+
+}
+.white-box3 h2 {
+    font-size: 20px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.white-box3 h3 {
+    font-size: 10px;
+    margin-top: 10px;
 }
