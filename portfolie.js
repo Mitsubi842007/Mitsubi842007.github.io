@@ -1,1 +1,1 @@
-console.log("ur gay");
+console.log("welcome to my portfolio");
